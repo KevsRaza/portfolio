@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# Kevin Portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Personal portfolio of a junior web developer & DevOps enthusiast.  
+Built with Vue.js, Tailwind CSS, and Vite.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Live Demo
+👉 https://kevin-portfolio.vercel.app
+
+## ✨ Features
+- Responsive modern UI
+- Hero section with CV download
+- Projects showcase
+- Skills & technologies section
+- Discord bot & DevOps projects
+- Contact section
+
+## 🛠️ Tech Stack
+- Vue.js 3  
+- Vite  
+- Tailwind CSS  
+- Heroicons  
+- AOS (animations)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/KevsRaza/portfolio.git
+cd portfolio
+npm install
+npm run dev

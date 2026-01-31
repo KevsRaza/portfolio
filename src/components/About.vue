@@ -78,10 +78,10 @@
 <script setup>
 
 import { ArrowRightIcon, ChatBubbleLeftRightIcon, CodeBracketSquareIcon, ServerIcon, ShieldCheckIcon, CubeIcon } from '@heroicons/vue/16/solid'
-import about1 from '../../public/About1.png'
-import about2 from '../../public/About2.png'
-import about3 from '../../public/About3.png'
-import about4 from '../../public/About4.png'
+import about1 from '/About1.png'
+import about2 from '/About2.png'
+import about3 from '/About3.png'
+import about4 from '/About4.png'
 
 const aboutImage = [
     {

@@ -170,9 +170,9 @@ const projects = ref([
         title: "Schulmanager",
         desc: 'German administrative management platform built with Laravel & Livewire, enabling the management of students, companies, schools, folders, and forms with search, sorting, pagination, and file uploads.',
         images: [
-                '../public/project1-1.png',
-                '../public/project1-2.png',
-                '../public/project1-3.png',
+                '../project1-1.png',
+                '../project1-2.png',
+                '../project1-3.png',
             ],
         category: 'Full-Stack',
         bordColor: 'border-blue-500/20',
@@ -231,7 +231,7 @@ const projects = ref([
         links: [
             {
                 name: "Live Demo",
-                url: "#",
+                url: "https://kevinraza-portfolio.vercel.app/",
                 icon: EyeIcon,
                 class: 'text-blue-400 hover:text-blue-300'
             },
@@ -248,10 +248,10 @@ const projects = ref([
         title: "Bot Discord (in progress...)",
         desc: 'This Discord bot offers moderation tools, fun games, and real-time notifications to enhance server management and user engagement.',
         images: [
-                '../public/project3-1.png',
-                '../public/project3-2.png',
-                '../public/project3-3.png',
-                '../public/project3-4.png',
+                '../project3-1.png',
+                '../project3-2.png',
+                '../project3-3.png',
+                '../project3-4.png',
             ],
         category: 'Bot',
         bordColor: 'border-blue-500/20',

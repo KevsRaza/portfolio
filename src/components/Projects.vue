@@ -210,7 +210,7 @@ const projects = ref([
         id: 2,
         title: "Portfolio",
         desc: 'I design and develop modern web applications and interactive bots, turning ideas into functional digital solutions with clean code and a focus on user experience.',
-        image: '../public/project2.png',
+        image: '../project2.png',
         category: 'Portfolio',
         bordColor: 'border-blue-500/20',
         badgeColor: 'bg-blue-500',

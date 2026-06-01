@@ -104,13 +104,13 @@ const skills = [
         title: "Backend Development",
         icon: ServerIcon,
         iconColor: 'text-blue-400',
-        percentage: 90,
+        percentage: 85,
         percentageColor: "text-blue-400 text-sm",
         gradient: 'bg-linear-to-r from-cyan-500 to-cyan-500'
     },
     {
         id: 3,
-        title: "DevOps & Cloud",
+        title: "Infrastructure & Cybersecurity",
         icon: ShieldCheckIcon,
         iconColor: 'text-blue-400',
         percentage: 65,
@@ -119,10 +119,10 @@ const skills = [
     },
     {
         id: 4,
-        title: "Discord Bot Development",
+        title: "DevOps",
         icon: CpuChipIcon,
         iconColor: 'text-cyan-400',
-        percentage: 75,
+        percentage: 60,
         percentageColor: "text-cyan-400 text-sm",
         gradient: 'bg-linear-to-r from-cyan-500 to-blue-500'
     },
@@ -146,7 +146,7 @@ const experiences = [
         position: "Symfony Developer",
         company: "Rna Dev Madagascar",
         period: "June 2023 - May 2024",
-        desc: "Acquired skills in web development, database integration, and deployment.",
+        desc: "Contributed to web application development using Symfony, worked with database integration and participated in deployment workflows.",
         borderColor: "border-blue-500/30",
         dotColor: "bg-blue-500",
         borderClass: "border-blue-500/20",
@@ -158,7 +158,7 @@ const experiences = [
         position: "Intern Symfony Developer",
         company: "OMH Madagascar",
         period: "November 2022 - February 2023",
-        desc: "Developed a web application for managing IT equipment, focusing on usability and user experience.",
+        desc: "Developed and improved a web application for IT equipment management with focus on usability and maintainability.",
         borderColor: "border-cyan-500/30",
         dotColor: "bg-cyan-500",
         borderClass: "border-cyan-500/20",
@@ -168,6 +168,6 @@ const experiences = [
 ]
 
 const techStack = [
-    'Laravel', 'Symfony', 'Node Js', 'Python', 'Vue Js', 'Javascript', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Ajax', 'SQL', 'REST API', 'Docker'
+    'Laravel', 'Symfony', 'Node Js', 'Python', 'Vue Js', 'Javascript', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'SQL', 'REST API', 'Docker', 'Linux', 'Ubuntu Server', 'Nginx', 'SSH', 'UFW', 'Git'
 ]
 </script>

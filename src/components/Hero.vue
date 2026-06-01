@@ -11,15 +11,12 @@
                         </h1>
                         <p class="text-blue-200 font-medium text-lg md:text-xl mt-4" data-aos="fade-right"
                             data-aos-delay="100">
-                            Web Developer Junior & DevOps
+                            Cybersecurity Student | Linux & DevOps Enthusiast | Full-Stack Developer
                         </p>
                     </div>
                     <p class="text-gray-300 pt-6 text-center lg:text-left mx-auto max-w-xl text-lg leading-relaxed"
                         data-aos="fade-right" data-aos-delay="200">
-                        I build <b> custom web applications </b> with Laravel, Symfony, and Vue.js, and optimize their
-                        deployement and reliability using modern methods. <br> My unique edge? I also develop <b>
-                            Discord Bots in Python </b> to automate your tasks, engage your communities, or connect your
-                        tools. <br> Clean code, turnkey solutions, and smart automation. <br> <b> Let's talk about your
+                        I design web applications using Laravel, Symfony and Vue.js while developing strong skills in system administration, infrastructure security and DevOps practices. <br> I enjoy building secure, reliable and scalable solutions, from web platforms and APIs to Linux servers and automation tools. <br> Clean code, turnkey solutions, and smart automation. <br> <b> Let's talk about your
                             project! </b>
                     </p>
                     <div class="flex items-center gap-4 pt-8 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -49,7 +46,7 @@
                     <div class="flex items-center justify-center lg:justify-start gap-8 pt-12" data-aos="fade-up"
                         data-aos-delay="400">
                         <div class="text-center">
-                            <div class="text-2xl font-bold text-blue-400"> 2</div>
+                            <div class="text-2xl font-bold text-blue-400"> 5</div>
                             <div class=" text-blue-200 text-sm"> Projects</div>
                         </div>
                         <div class="text-center">

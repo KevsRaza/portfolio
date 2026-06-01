@@ -38,14 +38,14 @@
                         </h2>
                         <p class="text-blue-200 font-medium text-lg md:text-xl mt-4" data-aos="fade-left"
                             data-aos-delay="100">
-                            Web Developer Junior & DevOps
+                            Cybersecurity Student • Full-Stack Developer • Linux & DevOps Enthusiast
                         </p>
                     </div>
                     <p class="text-gray-300 pt-4 text-center lg:text-left text-lg leading relaxed" data-aos="fade-left"
                         data-aos-delay="200">
-                        I am a Junior Web Developer with a passion for building efficient, responsive websites. <br>
-                        I also have a growing interest in DevOps and cybersecurity, working on securing applications and improving deployment workflows. <br>
-                        As a curious and self-taught developer, I enjoy learning new technologies and bringing ideas to life through code.
+                        My background combines full-stack web development with growing expertise in Linux administration, infrastructure security and DevOps practices. <br>
+                        I have experience developing web applications using Laravel, Symfony and Vue.js, while also working on personal projects involving Ubuntu Server, SSH hardening, firewall configuration and web service deployment. <br>
+                        Curious and continuously learning, I enjoy exploring how development, infrastructure and cybersecurity work together to create scalable and secure systems.
                     </p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-8" data-aos="fade-up" data-aos-delay="300">
                         <div v-for="skill in skills" :key="skill.id" class="flex flex-col">
@@ -145,15 +145,15 @@ const skills = [
         id: 3,
         icon: ShieldCheckIcon,
         iconColor: "text-blue-400",
-        title: 'Cybersecurity',
-        desc: "Kali Linux, OAuth2, JWT, Hashing, Encrypton"
+        title: 'Infrastructure & Security',
+        desc: "Linux Administration, Ubuntu Server, SSH, UFW, Fail2Ban, Networking, Web Service Deployment"
     },
     {
         id: 4,
         icon: CubeIcon,
         iconColor: "text-blue-400",
         title: 'Tools',
-        desc: "Git, Docker, VSCode, Ajax"
+        desc: "Git, GitHub Actions, Docker, VSCode, Postman"
     },
 ]
 

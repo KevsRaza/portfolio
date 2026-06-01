@@ -245,6 +245,104 @@ const projects = ref([
     },
     {
         id: 3,
+        title: "Home Lab Linux Server",
+        desc: 'Personal cybersecurity and infrastructure project focused on building and securing a self-hosted Linux server environment for learning system administration, networking, and security hardening.',
+        image: '../project3.png',
+        category: 'Infrastructure • Cybersecurity',
+        bordColor: 'border-blue-500/20',
+        badgeColor: 'bg-blue-500',
+        techno: [
+            {
+                name: "Linux",
+                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+            },
+            {
+                name: "Ubuntu Server",
+                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+            },
+            {
+                name: "SSH",
+                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+            },
+            {
+                name: "Nginx",
+                class: 'bg-cyan-500/20 border-blue-400/30 text-cyan-200'
+            },
+            {
+                name: "UFW",
+                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+            },
+            {
+                name: "Fail2Ban",
+                class: 'bg-cyan-500/20 border-blue-400/30 text-cyan-200'
+            },
+        ],
+        links: [
+            {
+                name: "Architecture Diagram",
+                url: "../diagram.svg",
+                icon: EyeIcon,
+                class: 'text-blue-400 hover:text-blue-300'
+            },
+            {
+                name: "GitHub Repo",
+                url: "#",
+                icon: CodeBracketIcon,
+                class: 'text-cyan-400 hover:text-cyan-300'
+            },
+        ]
+    },
+    {
+        id: 4,
+        title: "GGasy Esport — Web Platform",
+        desc: 'Full-stack web platform for a Malagasy gaming community. Features live stream integration (YouTube, Twitch, Facebook), clip management with video upload up to 1GB, news system, weekly planning, member management with drag & drop reordering, traffic analytics, and a responsive design for seamless user experience across devices.',
+        image: '../project4.png',
+        category: 'Full Stack • Web Development',
+        bordColor: 'border-blue-500/20',
+        badgeColor: 'bg-blue-500',
+        techno: [
+            {
+                name: "Laravel 12",
+                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+            },
+            {
+                name: "Livewire",
+                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+            },
+            {
+                name: "PHP",
+                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+            },
+            {
+                name: "MySQL",
+                class: 'bg-cyan-500/20 border-blue-400/30 text-cyan-200'
+            },
+            {
+                name: "Tailwind CSS",
+                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+            },
+            {
+                name: "Alpine.js",
+                class: 'bg-cyan-500/20 border-blue-400/30 text-cyan-200'
+            },
+        ],
+        links: [
+            {
+                name: "Live Demo",
+                url: "https://grid-violations-indexes-packs.trycloudflare.com/",
+                icon: EyeIcon,
+                class: 'text-blue-400 hover:text-blue-300'
+            },
+            {
+                name: "Code",
+                url: "https://github.com/KevsRaza/ggasy-blog",
+                icon: CodeBracketIcon,
+                class: 'text-cyan-400 hover:text-cyan-300'
+            },
+        ]
+    },
+    {
+        id: 5,
         title: "Bot Discord (in progress...)",
         desc: 'This Discord bot offers moderation tools, fun games, and real-time notifications to enhance server management and user engagement.',
         images: [

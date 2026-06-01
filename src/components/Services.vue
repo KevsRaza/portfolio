@@ -7,8 +7,11 @@
                         class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">Services</span>
                 </h2>
                 <p class="text-blue-200 text-lg max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-                    I offer a range of services to help you build, secure, and enhance your online presence.
-                    From creating modern websites to developing custom Discord bots, I bring your projects to life </p>
+                    I help design, build, and secure modern digital systems ranging from web applications to server infrastructure.<br>
+
+                    With a background in full-stack development and a growing focus on Linux systems, cybersecurity, and DevOps practices, I build solutions that are not only functional, but also secure and scalable. <br>
+
+                    From web platforms and APIs to server setup, deployment, and automation, I focus on delivering reliable and well-structured systems. </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div v-for="(service, index) in services" :key="services.id" :data-aos="'fade-up'"
@@ -59,20 +62,20 @@ const services = ref([
     {
         id: 1,
         icon: CodeBracketIcon,
-        name: 'Web Development',
-        desc: 'I build responsive and modern websites using Vue, React, and Laravel or Symfony.'
+        name: 'Full-Stack Development',
+        desc: 'I build modern and scalable web applications using Vue.js, Laravel, Symfony, and REST APIs.'
     },
     {
         id: 2,
         icon: ShieldCheckIcon,
-        name: 'Cybersecurity',
-        desc: 'Currently learning advanced cybersecurity techniques, with practical experience in securing websites and managing access control.'
+        name: 'Infrastructure & Cybersecurity',
+        desc: 'I configure and secure Linux servers using SSH, UFW, Fail2Ban, and Nginx, focusing on system hardening and access control.'
     },
     {
         id: 3,
         icon: RocketLaunchIcon,
-        name: 'Discord Bot Developer',
-        desc: 'I create custom Discord bots to automate tasks and improve server engagement.'
+        name: 'Automation & DevOps',
+        desc: 'I develop automation tools and bots, and work with deployment workflows to improve efficiency and system reliability.'
     },
 ])
 </script>
